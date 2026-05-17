@@ -3,8 +3,8 @@ import { useTypingEffect } from "../../hooks/useTypingEffect"
 const BG_IMAGE = "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1920&q=80"
 
 export default function Hero() {
-  const line1 = useTypingEffect("PUSH YOUR", 80, true, 2000)
-  const line2 = useTypingEffect("LIMITS", 80, true, 2000)
+  const line1 = useTypingEffect("PUSH YOUR", 80, true, 9000)
+  const line2 = useTypingEffect("LIMITS", 80, true, 9000)
 
   return (
     <section id="home" className="relative min-h-screen bg-zinc-950 flex flex-col items-center justify-center px-5 overflow-hidden text-center">
