@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react"
-import { useSwipeGallery } from "/workspaces/Gym_Sync_Demo1/gym-websites/client/src/hooks/useSwipeGallery.js"
+import { useSwipeGallery } from "../../hooks/useSwipeGallery"
 
 const images = [
   { url: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&q=80", alt: "Gym floor"       },
