@@ -32,7 +32,7 @@ function getSlot(index, current, total) {
 
 export default function Gallery() {
   return (
-    <section id="gallery" className="bg-zinc-900 py-20 px-5 overflow-hidden">
+    <section id="gallery" className="bg-zinc-900 testimonials-bg1 testimonials-bg py-20 px-5 overflow-hidden">
       <div className="max-w-5xl mx-auto">
         <SectionHeader />
         <CoverflowGallery />

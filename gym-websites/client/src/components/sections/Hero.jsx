@@ -7,7 +7,7 @@ export default function Hero() {
   const line2 = useTypingEffect("LIMITS", 80, true, 9000)
 
   return (
-    <section id="home" className="relative min-h-screen bg-zinc-950 flex flex-col items-center justify-center px-5 overflow-hidden text-center">
+    <section id="home" className="relative min-h-screen bg-zinc-950 flex flex-col items-center  justify-center px-5 overflow-hidden text-center">
 
       <HeroBg />
       <GridOverlay />
