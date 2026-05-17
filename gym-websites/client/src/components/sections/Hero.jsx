@@ -36,7 +36,7 @@ export default function Hero() {
       </div>
 
       <div className="relative z-10 h-12 flex items-center justify-center">
-        <button className="bg-red-700 text-zinc-50 font-bold  rounded-md text-sm tracking-widest uppercase px-10 py-3.5 transition-all duration-300 hover:bg-red-800 hover:text-white">
+        <button className="bg-red-700 text-zinc-50 font-bold  rounded-md text-sm tracking-widest uppercase px-10 py-3.5 transition-all duration-300 hover:bg-red-800 hover:text-white cursor-pointer">
           Contact Us
         </button>
       </div>

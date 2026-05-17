@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <section id="Contact" className="bg-zinc-900 py-20 px-5">
+    <section id="contact" className="bg-zinc-900 py-20 px-5">
       <div className="max-w-2xl mx-auto">
         <SectionHeader />
         <ContactForm />

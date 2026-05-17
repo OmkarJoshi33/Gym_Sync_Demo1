@@ -2,3 +2,53 @@
 html {
   scroll-behavior: smooth;
 }
+
+.deck {
+  touch-action: pan-y;
+  cursor: grab;
+}
+ 
+.deck.dragging {
+  cursor: grabbing;
+}
+ 
+.card {
+  will-change: transform;
+}
+.gallery-stage {
+  position: relative;
+  width: 100%;
+  height: clamp(220px, 45vw, 340px);
+  perspective: 900px;
+  cursor: grab;
+  touch-action: pan-y;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.gallery-stage.dragging {
+  cursor: grabbing;
+}
+
+.gallery-card {
+  will-change: transform;
+  position: absolute;
+  width: clamp(180px, 30vw, 500px);
+  height: clamp(280px, 30vw, 300px);
+  top: 50%;
+  left: 50%;
+  margin-left: clamp(-180px, -17.5vw, -150px);
+  margin-top: clamp(-90px, -20vw, -150px);
+}
+
+/* Add this to your existing index.css alongside .gallery-stage and .gallery-card */
+
+.card-number {
+  font-size: 7rem;
+  font-weight: 900;
+  line-height: 1;
+  user-select: none;
+  position: absolute;
+  bottom: 0.75rem;
+  right: 1rem;
+}

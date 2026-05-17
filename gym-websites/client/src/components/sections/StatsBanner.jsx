@@ -7,7 +7,7 @@ const stats = [
 
 export default function StatsBanner() {
   return (
-    <section className="bg-red-700 py-12 px-5">
+    <section id="stats" className="bg-red-700 py-12 px-5">
       <div className="max-w-5xl mx-auto">
         <StatsGrid />
       </div>
